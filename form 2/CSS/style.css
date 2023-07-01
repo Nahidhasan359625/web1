@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+  width: 800px;
+  height: 400px;
+  background: rgba(217, 217, 217, 0.4);
+  display: flex;
+}
+.form .form_img_col {
+  width: 400px;
+}
+.form .form_img_col img {
+  width: 400px;
+  height: 400px;
+}
+.form .from_texts_buttons {
+  width: 400px;
+}
+.form .from_texts_buttons .form_text {
+  text-align: center;
+}
+.form .from_texts_buttons .form_text h1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-top: 35px;
+}
+.form .from_texts_buttons .form_text input {
+  width: 250px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.form .from_texts_buttons .buttons .login_button a {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  margin-left: 70px;
+  margin-top: 40px;
+  transition: 0.3s;
+}
+.form .from_texts_buttons .buttons .login_button a:hover {
+  color: #fff;
+  background: #000;
+}
+.form .from_texts_buttons .buttons p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.form .from_texts_buttons .buttons .alternet_buttons {
+  margin-left: 70px;
+  display: flex;
+  gap: 40px;
+}
+.form .from_texts_buttons .buttons .alternet_buttons .google_button a {
+  width: 130px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: white;
+  transition: 0.3s;
+}
+.form .from_texts_buttons .buttons .alternet_buttons .google_button a:hover {
+  color: #fff;
+  background: #000;
+}
+.form .from_texts_buttons .buttons .alternet_buttons .google_button a span {
+  margin-left: 10px;
+}
+.form .from_texts_buttons .buttons .alternet_buttons .facebook_button a {
+  width: 130px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: white;
+  transition: 0.3s;
+}
+.form .from_texts_buttons .buttons .alternet_buttons .facebook_button a:hover {
+  color: #fff;
+  background: #000;
+}
+.form .from_texts_buttons .buttons .alternet_buttons .facebook_button a span {
+  margin-left: 10px;
+}
+.form .from_texts_buttons .buttons .forgoten a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin-left: 70px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+.form .from_texts_buttons .buttons .forgoten a:hover {
+  color: #fff;
+}
+
+::placeholder {
+  font-size: 16px;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
+  color: #000;
+}
